@@ -22,7 +22,7 @@ namespace Client_Side
         //Ele tambem é referido como um ponteiro de metodo de tipagem segura
 
         //prototipo de delegacao para mandar os dados devolta para o formulario
-        delegate void AddMessage(string sNewMessage);
+        delegate void AddMessage(string novaMensagem);
         #endregion
 
         #region Variaveis
@@ -279,7 +279,7 @@ namespace Client_Side
         }
 
         /// <summary>
-        /// Adiciona a mensagem recem chegada do servidor ni list de mensagem.
+        /// Adiciona a mensagem recem chegada do servidor na list de mensagem.
         /// </summary>
         /// <param name="mensagem"></param>
         public void OnAddMensagem(string mensagem)
