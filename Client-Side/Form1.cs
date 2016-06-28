@@ -19,7 +19,7 @@ namespace Client_Side
     {
         #region Delegates
         //este delegate é um tipo que segura as referencias de um metodo dentro de um objeto.
-        //Ele tambem é referido como um ponteiro de metodo de tipagem segura
+        //Ele tambem é referido como um ponteiro de metodo de tipagem segura.
 
         //prototipo de delegacao para mandar os dados devolta para o formulario
         delegate void AddMessage(string novaMensagem);
